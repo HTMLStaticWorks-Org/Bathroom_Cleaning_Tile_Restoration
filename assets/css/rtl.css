@@ -1,0 +1,95 @@
+/* ==========================================================================
+   RTL Styles
+   ========================================================================== */
+html[dir="rtl"] body {
+    text-align: right;
+}
+
+html[dir="rtl"] .hero-overlay {
+    background: linear-gradient(to left, rgba(10, 14, 18, 0.95) 0%, rgba(10, 14, 18, 0.4) 100%);
+}
+
+html[dir="rtl"] .ultra-premium-hero .hero-overlay {
+    background: linear-gradient(-135deg, rgba(10,14,18,0.98) 0%, rgba(10,14,18,0.85) 40%, rgba(0,180,216,0.1) 100%);
+}
+
+html[dir="rtl"] .footer-grid {
+    direction: rtl;
+}
+
+html[dir="rtl"] .card-body {
+    text-align: right;
+}
+
+html[dir="rtl"] .brand svg,
+html[dir="rtl"] .auth-logo svg {
+    margin-right: 0 !important;
+    margin-left: 10px !important;
+}
+
+html[dir="rtl"] .footer-brand svg {
+    margin-right: 0 !important;
+    margin-left: 12px !important;
+}
+
+html[dir="rtl"] .fixed-toggles {
+    justify-content: flex-start;
+}
+
+/* RTL Timeline Adjustments */
+@media (max-width: 860px) {
+    html[dir="rtl"] .timeline-spine {
+        right: 24px;
+        left: auto;
+    }
+    html[dir="rtl"] .timeline-node {
+        right: 24px;
+        left: auto;
+        transform: translate(50%, -50%);
+    }
+    html[dir="rtl"] .timeline-card {
+        margin-right: 56px !important;
+        margin-left: 0 !important;
+        text-align: right;
+    }
+}
+
+
+/* Hero Snip Section RTL */
+html[dir="rtl"] .hero-snip-left {
+    text-align: right;
+}
+html[dir="rtl"] .hero-snip-cta-row {
+    justify-content: flex-start;
+}
+html[dir="rtl"] .hero-snip-features {
+    justify-content: flex-start;
+}
+html[dir="rtl"] .comparison-divider-line {
+    right: 50%;
+    left: auto;
+    transform: translateX(50%);
+}
+html[dir="rtl"] .comparison-slider-handle {
+    right: 50%;
+    left: auto;
+    transform: translate(50%, -50%);
+}
+html[dir="rtl"] .badge-before {
+    right: 20%;
+    left: auto;
+    transform: translateX(50%);
+}
+html[dir="rtl"] .badge-after {
+    left: 20%;
+    right: auto;
+    transform: translateX(-50%);
+}
+
+/* Home 2 Hero Section RTL */
+html[dir="rtl"] .hero2-feature-item {
+    text-align: right;
+}
+html[dir="rtl"] .hero2-btn-primary svg {
+    transform: rotate(180deg);
+}

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | PureTile Bathroom Cleaning & Tile Restoration</title>
+    <meta name="description" content="Explore our specialized services: tile and grout steam extraction, shower glass descaling, grout color sealing, caulking, and commercial restroom sanitization.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar home-navbar">
+        <div class="container flex-between">
+            <a href="index.html" class="brand">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="brand-icon">
+                    <rect width="32" height="32" rx="9" fill="rgba(6, 24, 38, 0.85)" stroke="#00B4D8" stroke-width="1.5" stroke-opacity="0.45"/>
+                    <rect x="5.5" y="5.5" width="9" height="9" rx="2.5" fill="#0284C7" fill-opacity="0.9"/>
+                    <rect x="5.5" y="17.5" width="9" height="9" rx="2.5" fill="#00B4D8" fill-opacity="0.85"/>
+                    <rect x="17.5" y="17.5" width="9" height="9" rx="2.5" fill="#0077B6" fill-opacity="0.85"/>
+                    <rect x="17.5" y="5.5" width="9" height="9" rx="2.5" fill="#00E5FF"/>
+                    <path d="M22 6.8 Q22 10 18.8 10 Q22 10 22 13.2 Q22 10 25.2 10 Q22 10 22 6.8 Z" fill="#FFFFFF"/>
+                    <circle cx="22" cy="10" r="0.9" fill="#FFFFFF"/>
+                </svg>
+                <span class="brand-text">PURE<span class="brand-accent">TILE</span><span class="brand-sub">RESTORATION</span></span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="home-2.html" class="nav-link">Home 2</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link active">Services</a></li>
+                <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button id="darkModeToggle" class="icon-btn" aria-label="Toggle Dark Mode">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <line x1="12" y1="2" x2="12" y2="4"></line>
+                        <line x1="12" y1="20" x2="12" y2="22"></line>
+                        <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+                        <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+                        <line x1="2" y1="12" x2="4" y2="12"></line>
+                        <line x1="20" y1="12" x2="22" y2="12"></line>
+                        <line x1="6.34" y1="17.66" x2="4.93" y2="19.07"></line>
+                        <line x1="19.07" y1="4.93" x2="17.66" y2="6.34"></line>
+                    </svg>
+                </button>
+                <button id="rtlToggle" class="icon-btn" aria-label="Toggle RTL">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+                </button>
+                <a href="contact.html" class="btn-nav-book">Book Now</a>
+                <button class="mobile-menu-btn icon-btn" aria-label="Menu">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero Banner -->
+    <section class="section" style="padding-top: 160px; padding-bottom: 80px; text-align: center; border-bottom: 1px solid var(--border-color);">
+        <div class="container reveal">
+            <h1 class="hero-title">Restoration & Deep Cleaning Services</h1>
+            <p class="hero-subtitle" style="max-width: 600px; margin: 0 auto 2rem auto;">Comprehensive restorative care for residential bathrooms, luxury walk-in showers, and high-traffic commercial facilities.</p>
+            
+            <!-- Quick Service Jump Pills (1-to-1 Navigation) -->
+            <div style="display: flex; justify-content: center; gap: 0.75rem; flex-wrap: wrap;">
+                <a href="#tile-steam-cleaning" class="quick-nav-pill">
+                    <span>🔥 Tile & Grout Steam</span>
+                </a>
+                <a href="#commercial-restrooms" class="quick-nav-pill">
+                    <span>🏢 Commercial Restrooms</span>
+                </a>
+                <a href="#shower-glass-descaling" class="quick-nav-pill">
+                    <span>✨ Shower Glass Descaling</span>
+                </a>
+                <a href="#grout-colorsealing" class="quick-nav-pill">
+                    <span>🎨 Grout ColorSealing</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Tile & Grout Steam Extraction (Seamless 2-Column Luxury Layout) -->
+    <section class="sec-ribbon" id="tile-steam-cleaning" style="padding: 7rem 0;">
+        <div class="container">
+            <div class="ribbon-flex">
+                <!-- Left: Open Editorial Narrative (No Boxed Card) -->
+                <div class="reveal reveal-left" style="display: flex; flex-direction: column; justify-content: center;">
+                    <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(0, 180, 216, 0.1); border: 1px solid rgba(0, 180, 216, 0.25); color: #00B4D8; padding: 0.4rem 1rem; border-radius: 30px; font-size: 0.8rem; font-weight: 700; width: fit-content; margin-bottom: 1.25rem;">
+                        <span style="width: 8px; height: 8px; border-radius: 50%; background: #00B4D8;"></span>
+                        RESIDENTIAL & COMMERCIAL
+                    </div>
+                    
+                    <h2 style="font-size: clamp(2.2rem, 4.5vw, 3.25rem); font-weight: 700; margin-bottom: 1.25rem; color: var(--text-primary); line-height: 1.15;">
+                        Tile & Grout Steam Extraction
+                    </h2>
+                    
+                    <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.75; margin-bottom: 1.75rem;">
+                        Turn stained, discolored bathroom tile into sparkling, hygienic surfaces. Our industrial truckmount extraction system uses 220°F pressurized steam and high-flow vacuum extraction to flush embedded dirt, mold, and soap scum out of microscopic pores without damaging your tile or glaze.
+                    </p>
+                    
+                    <!-- Clean Micro Checkmarks -->
+                    <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 2.25rem;">
+                        <div style="display: flex; align-items: center; gap: 0.75rem; color: var(--text-primary); font-size: 0.95rem;">
+                            <svg width="20" height="20" fill="none" stroke="#00B4D8" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            <span>Deep high-temperature 220°F thermal extraction</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 0.75rem; color: var(--text-primary); font-size: 0.95rem;">
+                            <svg width="20" height="20" fill="none" stroke="#00B4D8" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            <span>Non-acidic, eco-friendly tile cleaning agents</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 0.75rem; color: var(--text-primary); font-size: 0.95rem;">
+                            <svg width="20" height="20" fill="none" stroke="#00B4D8" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            <span>Fast drying time with zero surface residue</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Single Primary CTA Button -->
+                    <div>
+                        <a href="contact.html" class="btn btn-primary" style="height: 48px; padding: 0 1.65rem; font-size: 0.95rem; font-weight: 600; display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem; width: fit-content; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.3); white-space: nowrap; border-radius: 10px;">
+                            <span>Book Cleaning</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right: Single Photo Showcase Frame with Live Floating Badges -->
+                <div class="reveal reveal-right" style="position: relative;">
+                    <div class="ribbon-image">
+                        <img src="assets/images/tile_grout_cleaning.png" alt="Tile and grout steam extraction process">
+                        <div style="position: absolute; inset: 0; border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 28px; pointer-events: none;"></div>
+                        
+                        <!-- Floating Live Status Badge 1: Top Right -->
+                        <div class="float-slow" style="position: absolute; top: 1.5rem; right: 1.5rem; background: rgba(15, 23, 42, 0.88); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(56, 189, 248, 0.35); border-radius: 14px; padding: 0.85rem 1.25rem; display: flex; align-items: center; gap: 0.75rem; color: #FFFFFF; box-shadow: 0 10px 25px rgba(0,0,0,0.4);">
+                            <div style="width: 34px; height: 34px; border-radius: 50%; background: #00B4D8; display: flex; align-items: center; justify-content: center; color: white;">
+                                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                            </div>
+                            <div>
+                                <div style="font-weight: 700; font-size: 0.875rem; color: #FFFFFF;">1,200 PSI Pressure</div>
+                                <div style="font-size: 0.725rem; color: #38BDF8;">Pore-Deep Extraction</div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Live Status Badge 2: Bottom Left -->
+                        <div class="float-reverse" style="position: absolute; bottom: 1.5rem; left: 1.5rem; background: rgba(15, 23, 42, 0.88); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(56, 189, 248, 0.35); border-radius: 14px; padding: 0.85rem 1.25rem; display: flex; align-items: center; gap: 0.75rem; color: #FFFFFF; box-shadow: 0 10px 25px rgba(0,0,0,0.4);">
+                            <div style="width: 34px; height: 34px; border-radius: 50%; background: #00B4D8; display: flex; align-items: center; justify-content: center; color: white;">
+                                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/></svg>
+                            </div>
+                            <div>
+                                <div style="font-weight: 700; font-size: 0.875rem; color: #FFFFFF;">220°F Thermal Steam</div>
+                                <div style="font-size: 0.725rem; color: #38BDF8;">Zero Residue Extraction</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Commercial Restroom Deep Sanitization (Unique Panoramic Enterprise Showcase - No Split Layout) -->
+    <section class="sec-diagonal" id="commercial-restrooms" style="padding: 7rem 0; background-color: var(--bg-primary);">
+        <div class="container">
+            <!-- Header -->
+            <div class="text-center reveal reveal-up" style="max-width: 820px; margin: 0 auto 3.5rem auto;">
+                <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(0, 180, 216, 0.1); border: 1px solid rgba(0, 180, 216, 0.25); color: #00B4D8; padding: 0.4rem 1.1rem; border-radius: 30px; font-size: 0.8rem; font-weight: 700; margin-bottom: 1rem;">
+                    <span style="width: 8px; height: 8px; border-radius: 50%; background: #00B4D8;"></span>
+                    FACILITY HYGIENE & COMPLIANCE
+                </div>
+                <h2 style="font-size: clamp(2.2rem, 4.2vw, 3.25rem); font-weight: 700; margin-bottom: 1.25rem; color: var(--text-primary); line-height: 1.2;">
+                    Commercial Restroom Deep Sanitization
+                </h2>
+                <p style="color: var(--text-secondary); line-height: 1.75; font-size: 1.05rem; margin: 0 auto;">
+                    Keep high-traffic corporate offices, boutique hotels, gyms, and medical centers pristine, odor-free, and audit-compliant. Our specialized night-shift teams mobilize with 220°F truck-mounted thermal extraction — completed and 100% dry before your doors open.
+                </p>
+            </div>
+
+            <!-- Panoramic Visual Showcase (Heroic Wide-Aspect Feature - NOT a 50/50 Split) -->
+            <div class="reveal reveal-up" style="position: relative; border-radius: 28px; overflow: hidden; box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45); border: 1px solid var(--border-color); height: 440px; margin-bottom: 3.5rem;">
+                <img src="assets/images/commercial_restroom_cleaning.png" alt="Commercial Restroom Deep Sanitization" style="width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(1.08);">
+                
+                <!-- Subtle Gradient Vignette Overlay for Depth -->
+                <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(11, 19, 32, 0.8) 0%, rgba(11, 19, 32, 0.1) 50%, rgba(11, 19, 32, 0.5) 100%); pointer-events: none;"></div>
+
+                <!-- Floating Live Status Badges: Top Left & Bottom Right -->
+                <div class="float-slow" style="position: absolute; top: 1.5rem; left: 1.5rem; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(56, 189, 248, 0.35); border-radius: 14px; padding: 0.85rem 1.25rem; display: flex; align-items: center; gap: 0.75rem; color: #FFFFFF; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+                    <div style="width: 36px; height: 36px; border-radius: 50%; background: #00B4D8; display: flex; align-items: center; justify-content: center; color: white;">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                    </div>
+                    <div>
+                        <div style="font-weight: 700; font-size: 0.875rem; color: #FFFFFF;">Corporate & Hospitality</div>
+                        <div style="font-size: 0.725rem; color: #38BDF8;">Overnight Scheduling • Dry by 7 AM</div>
+                    </div>
+                </div>
+
+                <div class="float-reverse" style="position: absolute; bottom: 1.5rem; right: 1.5rem; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(56, 189, 248, 0.35); border-radius: 14px; padding: 0.85rem 1.25rem; display: flex; align-items: center; gap: 0.75rem; color: #FFFFFF; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+                    <div style="width: 36px; height: 36px; border-radius: 50%; background: #00B4D8; display: flex; align-items: center; justify-content: center; color: white;">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                    </div>
+                    <div>
+                        <div style="font-weight: 700; font-size: 0.875rem; color: #FFFFFF;">Hospital-Grade Sanitation</div>
+                        <div style="font-size: 0.725rem; color: #38BDF8;">99.9% Bacterial & Odor Eradication</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4-Pillar Facility Standards Grid (Unique Card Architecture, NOT a 50/50 split!) -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.75rem; margin-bottom: 3.5rem;">
+                <div class="glass-card reveal reveal-up hover-lift" style="padding: 2.25rem 1.75rem; border-radius: 20px; border: 1px solid var(--border-color); background: var(--bg-card); display: flex; flex-direction: column;">
+                    <div style="width: 44px; height: 44px; border-radius: 12px; background: rgba(0, 180, 216, 0.1); border: 1px solid rgba(0, 180, 216, 0.25); display: flex; align-items: center; justify-content: center; color: #00B4D8; margin-bottom: 1.25rem;">
+                        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                    </div>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.65rem;">Uric Acid Extraction</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.65; margin: 0;">220°F pressurized steam breaks down embedded crystallized uric salts and organic odors trapped deep in porous cementitious grout.</p>
+                </div>
+
+                <div class="glass-card reveal reveal-up hover-lift" style="transition-delay: 0.1s; padding: 2.25rem 1.75rem; border-radius: 20px; border: 1px solid var(--border-color); background: var(--bg-card); display: flex; flex-direction: column;">
+                    <div style="width: 44px; height: 44px; border-radius: 12px; background: rgba(0, 180, 216, 0.1); border: 1px solid rgba(0, 180, 216, 0.25); display: flex; align-items: center; justify-content: center; color: #00B4D8; margin-bottom: 1.25rem;">
+                        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.65rem;">High-Traction Anti-Slip</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.65; margin: 0;">Microscopic fluoropolymer bonding increases the static coefficient of friction on wet tile, drastically reducing slip-and-fall liability.</p>
+                </div>
+
+                <div class="glass-card reveal reveal-up hover-lift" style="transition-delay: 0.2s; padding: 2.25rem 1.75rem; border-radius: 20px; border: 1px solid var(--border-color); background: var(--bg-card); display: flex; flex-direction: column;">
+                    <div style="width: 44px; height: 44px; border-radius: 12px; background: rgba(0, 180, 216, 0.1); border: 1px solid rgba(0, 180, 216, 0.25); display: flex; align-items: center; justify-content: center; color: #00B4D8; margin-bottom: 1.25rem;">
+                        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.65rem;">Zero-Disruption Night Shift</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.65; margin: 0;">Specialized overnight teams operate after close of business. Surfaces are 100% sanitized, dry, and walkable before 7:00 AM.</p>
+                </div>
+
+                <div class="glass-card reveal reveal-up hover-lift" style="transition-delay: 0.3s; padding: 2.25rem 1.75rem; border-radius: 20px; border: 1px solid var(--border-color); background: var(--bg-card); display: flex; flex-direction: column;">
+                    <div style="width: 44px; height: 44px; border-radius: 12px; background: rgba(0, 180, 216, 0.1); border: 1px solid rgba(0, 180, 216, 0.25); display: flex; align-items: center; justify-content: center; color: #00B4D8; margin-bottom: 1.25rem;">
+                        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.65rem;">Audit & Hygiene Compliance</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.65; margin: 0;">Official certification certificates and digital hygiene logs delivered to your facilities management team for health inspections.</p>
+                </div>
+            </div>
+
+            <!-- Single Centered Primary CTA (1 Primary CTA Only!) -->
+            <div class="reveal reveal-up text-center">
+                <a href="contact.html" class="btn btn-primary" style="height: 48px; padding: 0 1.75rem; font-size: 0.95rem; font-weight: 600; display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem; width: fit-content; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.35); white-space: nowrap; border-radius: 10px;">
+                    <span>Request Quote</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <div style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.85rem;">
+                    Custom quarterly maintenance schedules • Servicing offices, hotels, fitness centers & clinics
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Shower Glass Descaling (Split Layout) -->
+    <section class="sec-spotlight" id="shower-glass-descaling" style="padding-top: 2rem;">
+        <div class="container">
+            <div class="text-center reveal reveal-up" style="margin-bottom: 4rem;">
+                <span class="eyebrow" style="color: var(--accent-premium); letter-spacing: 2px; text-transform: uppercase; font-weight: 600; font-size: 0.85rem; display: block; margin-bottom: 1rem;">Shower Enclosure Care</span>
+                <h2 style="font-size: clamp(2.2rem, 4.5vw, 3.25rem); font-weight: 700; margin-bottom: 1rem; color: var(--text-primary); line-height: 1.2;">Shower Glass Descaling</h2>
+                <p style="max-width: 600px; margin: 0 auto; color: var(--text-secondary);">Bring cloudy, calcium-etched shower doors back to 100% crystal-clear transparency.</p>
+            </div>
+            
+            <div class="grid grid-2" style="align-items: center; gap: 4rem;">
+                <div class="reveal reveal-left">
+                    <h3 style="font-size: clamp(1.5rem, 4vw, 2.2rem); margin-bottom: 1.5rem; color: var(--text-primary);">Hard Water & Mineral Removal</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.7; font-size: 1.1rem;">Hard water minerals and soap scum chemically bond with glass pores over time, creating a frosted, stained appearance that regular glass cleaners cannot remove.</p>
+                    <p style="color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.7; font-size: 1rem;">Our restorative process buffs away bonded calcium deposits without scratching the glass, followed by a hydrophobic nano-coating that repels water droplets and stops future staining in its tracks.</p>
+                    <ul class="check-list" style="list-style: none; padding: 0; margin-bottom: 2.5rem;">
+                        <li style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; color: var(--text-primary);"><svg width="20" height="20" fill="none" stroke="#00B4D8" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg> Complete calcium & lime scale removal</li>
+                        <li style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; color: var(--text-primary);"><svg width="20" height="20" fill="none" stroke="#00B4D8" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg> Ultra-smooth hydrophobic protective coat</li>
+                        <li style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; color: var(--text-primary);"><svg width="20" height="20" fill="none" stroke="#00B4D8" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg> Anti-mildew sanitary perimeter silicone re-caulking</li>
+                    </ul>
+                    <a href="index.html#beforeAfterSection" class="btn btn-primary">View Before & After</a>
+                </div>
+                <div class="reveal reveal-right">
+                    <div style="border-radius: 20px; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,0.3);">
+                        <img src="assets/images/shower_glass_restoration.png" alt="Crystal clear shower glass" style="width: 100%; height: 500px; object-fit: cover; display: block;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Grout ColorSealing (Studio Showcase & Color Palette) -->
+    <section class="section section-grout-studio" id="grout-colorsealing" style="padding: 7rem 0; background-color: var(--bg-secondary); border-top: 1px solid var(--border-color);">
+        <div class="container">
+            <div class="text-center reveal reveal-up" style="max-width: 800px; margin: 0 auto 3.5rem auto;">
+                <span class="eyebrow" style="color: #00B4D8; letter-spacing: 2px; text-transform: uppercase; font-weight: 600; font-size: 0.85rem; display: block; margin-bottom: 0.75rem;">Permanent Aesthetic Upgrade</span>
+                <h2 style="font-size: clamp(2rem, 4vw, 2.85rem); margin-bottom: 1rem; color: var(--text-primary); line-height: 1.2;">Precision Grout ColorSealing Studio</h2>
+                <p style="color: var(--text-secondary); line-height: 1.7; font-size: 1.05rem;">Revitalize discolored or stained grout with our permanent color-matched fluoropolymer sealers. 100% stain-proof, waterproof, and guaranteed for 10 years without replacing a single tile.</p>
+            </div>
+
+            <!-- 2-Column Split Studio Showcase -->
+            <div class="grid grid-2" style="align-items: center; gap: 3.5rem; margin-bottom: 4rem;">
+                <!-- Left: Color Studio Details & Interactive Palette -->
+                <div class="glass-card reveal reveal-left hover-lift" style="padding: 3rem 2.5rem; border-radius: 24px; border: 1px solid var(--border-color); background: var(--bg-card); box-shadow: var(--shadow-soft);">
+                    <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.2); border-radius: 20px; padding: 0.35rem 0.85rem; margin-bottom: 1.25rem;">
+                        <span style="color: #0284C7; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">Color Matching Technology</span>
+                    </div>
+                    <h3 style="font-size: clamp(1.5rem, 2.8vw, 2rem); color: var(--text-primary); margin-bottom: 1rem; line-height: 1.25; font-weight: 700;">Transform Your Grout Lines in Hours</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.65; font-size: 0.975rem; margin-bottom: 1.75rem;">Don't spend thousands tearing out old tile. Our fluoropolymer color seal deeply penetrates porous cement joints, creating an impenetrable shield that repels coffee, red wine, grime, and dirty mop water.</p>
+                    
+                    <!-- Popular Designer Shades Swatches -->
+                    <div style="margin-bottom: 2rem;">
+                        <span style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--text-primary); display: block; margin-bottom: 0.85rem;">Popular Designer Shades</span>
+                        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+                            <div style="display: flex; align-items: center; gap: 0.45rem; background: rgba(56, 189, 248, 0.08); border: 1px solid var(--border-color); padding: 0.35rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; color: var(--text-primary);">
+                                <span style="width: 12px; height: 12px; border-radius: 50%; background: #FFFFFF; border: 1px solid #CBD5E1; display: inline-block;"></span>
+                                <span>Pure White</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.45rem; background: rgba(56, 189, 248, 0.08); border: 1px solid var(--border-color); padding: 0.35rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; color: var(--text-primary);">
+                                <span style="width: 12px; height: 12px; border-radius: 50%; background: #F5EBE0; border: 1px solid #CBD5E1; display: inline-block;"></span>
+                                <span>Warm Biscuit</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.45rem; background: rgba(56, 189, 248, 0.08); border: 1px solid var(--border-color); padding: 0.35rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; color: var(--text-primary);">
+                                <span style="width: 12px; height: 12px; border-radius: 50%; background: #94A3B8; display: inline-block;"></span>
+                                <span>Platinum Grey</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.45rem; background: rgba(56, 189, 248, 0.08); border: 1px solid var(--border-color); padding: 0.35rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; color: var(--text-primary);">
+                                <span style="width: 12px; height: 12px; border-radius: 50%; background: #334155; display: inline-block;"></span>
+                                <span>Slate Charcoal</span>
+                            </div>
+                            <div style="background: rgba(2, 132, 199, 0.12); color: var(--accent-primary); padding: 0.35rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 700;">
+                                +36 Shades
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Checklist -->
+                    <ul style="list-style: none; padding: 0; margin: 0 0 2rem 0; display: flex; flex-direction: column; gap: 0.65rem;">
+                        <li style="display: flex; align-items: center; gap: 0.65rem; color: var(--text-secondary); font-size: 0.9rem;">
+                            <svg width="18" height="18" fill="none" stroke="#10B981" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            <span><strong>10-Year Written Warranty</strong> against peeling, cracking, or discoloration</span>
+                        </li>
+                        <li style="display: flex; align-items: center; gap: 0.65rem; color: var(--text-secondary); font-size: 0.9rem;">
+                            <svg width="18" height="18" fill="none" stroke="#10B981" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            <span><strong>Stain-Proof Barrier</strong> repels dirty mop water, grease, and pet messes</span>
+                        </li>
+                        <li style="display: flex; align-items: center; gap: 0.65rem; color: var(--text-secondary); font-size: 0.9rem;">
+                            <svg width="18" height="18" fill="none" stroke="#10B981" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            <span><strong>Instant Hygiene</strong> with anti-microbial sanitized finish</span>
+                        </li>
+                    </ul>
+
+                    <!-- Single Primary Action Button (1 CTA Only) -->
+                    <div>
+                        <a href="contact.html" class="btn btn-primary" style="height: 48px; padding: 0 1.65rem; font-size: 0.95rem; font-weight: 600; display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem; width: fit-content; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.3); white-space: nowrap; border-radius: 10px;">
+                            <span>Free Estimate</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right: Dedicated High-Res Visual Showcase with Floating Badges (Clean & Un-obscured) -->
+                <div class="reveal reveal-right" style="position: relative;">
+                    <div style="position: relative; border-radius: 24px; overflow: hidden; box-shadow: var(--shadow-hover); border: 1px solid var(--border-color);">
+                        <img src="assets/images/grout_restoration_work.png" alt="Technician applying precision grout color seal along tiles" style="width: 100%; height: 500px; object-fit: cover; display: block;">
+                        
+                        <!-- Floating Live Status Badge 1: Top Right -->
+                        <div class="float-slow" style="position: absolute; top: 1.5rem; right: 1.5rem; background: rgba(15, 23, 42, 0.88); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(56, 189, 248, 0.35); border-radius: 14px; padding: 0.85rem 1.25rem; display: flex; align-items: center; gap: 0.75rem; color: #FFFFFF; box-shadow: 0 10px 25px rgba(0,0,0,0.4);">
+                            <div style="width: 34px; height: 34px; border-radius: 50%; background: #0284C7; display: flex; align-items: center; justify-content: center; color: white;">
+                                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            </div>
+                            <div>
+                                <div style="font-weight: 700; font-size: 0.875rem; color: #FFFFFF;">40+ Custom Shades</div>
+                                <div style="font-size: 0.725rem; color: #38BDF8;">Perfect Tile Match</div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Live Status Badge 2: Bottom Left -->
+                        <div class="float-reverse" style="position: absolute; bottom: 1.5rem; left: 1.5rem; background: rgba(15, 23, 42, 0.88); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(16, 185, 129, 0.4); border-radius: 14px; padding: 0.85rem 1.25rem; display: flex; align-items: center; gap: 0.75rem; color: #FFFFFF; box-shadow: 0 10px 25px rgba(0,0,0,0.4);">
+                            <div style="width: 34px; height: 34px; border-radius: 50%; background: #10B981; display: flex; align-items: center; justify-content: center; color: white;">
+                                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                            </div>
+                            <div>
+                                <div style="font-weight: 700; font-size: 0.875rem; color: #FFFFFF;">10-Year Stain Defense</div>
+                                <div style="font-size: 0.725rem; color: #A7F3D0;">Zero Water Absorption</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 Feature Highlight Pillars -->
+            <div class="services-process-grid">
+                <div class="glass-card services-process-card reveal reveal-up hover-lift">
+                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                        <span style="font-size: 1.5rem; font-weight: 800; color: var(--accent-primary); font-family: 'Outfit', sans-serif;">01</span>
+                        <h4 style="font-size: 1.15rem; color: var(--text-primary); margin: 0; font-weight: 600;">Deep Extraction</h4>
+                    </div>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin: 0;">220°F hydro-steam purges bacteria, embedded grease, and dirt from pores to create a clean bonding surface.</p>
+                </div>
+
+                <div class="glass-card services-process-card reveal reveal-up hover-lift" style="transition-delay: 0.15s;">
+                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                        <span style="font-size: 1.5rem; font-weight: 800; color: var(--accent-secondary); font-family: 'Outfit', sans-serif;">02</span>
+                        <h4 style="font-size: 1.15rem; color: var(--text-primary); margin: 0; font-weight: 600;">Artisan ColorSeal</h4>
+                    </div>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin: 0;">Fluoropolymer pigment is hand-applied along every grout line, restoring uniform factory-fresh appearance.</p>
+                </div>
+
+                <div class="glass-card services-process-card reveal reveal-up hover-lift" style="transition-delay: 0.3s;">
+                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                        <span style="font-size: 1.5rem; font-weight: 800; color: #10B981; font-family: 'Outfit', sans-serif;">03</span>
+                        <h4 style="font-size: 1.15rem; color: var(--text-primary); margin: 0; font-weight: 600;">Hydrophobic Cure</h4>
+                    </div>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin: 0;">Rapid same-day curing locks out future spills and stains, allowing normal foot traffic within hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="index.html" class="footer-brand" style="display: inline-flex; align-items: center; gap: 10px; text-decoration: none;">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="brand-icon">
+                            <rect width="32" height="32" rx="9" fill="rgba(6, 24, 38, 0.85)" stroke="#00B4D8" stroke-width="1.5" stroke-opacity="0.45"/>
+                            <rect x="5.5" y="5.5" width="9" height="9" rx="2.5" fill="#0284C7" fill-opacity="0.9"/>
+                            <rect x="5.5" y="17.5" width="9" height="9" rx="2.5" fill="#00B4D8" fill-opacity="0.85"/>
+                            <rect x="17.5" y="17.5" width="9" height="9" rx="2.5" fill="#0077B6" fill-opacity="0.85"/>
+                            <rect x="17.5" y="5.5" width="9" height="9" rx="2.5" fill="#00E5FF"/>
+                            <path d="M22 6.8 Q22 10 18.8 10 Q22 10 22 13.2 Q22 10 25.2 10 Q22 10 22 6.8 Z" fill="#FFFFFF"/>
+                            <circle cx="22" cy="10" r="0.9" fill="#FFFFFF"/>
+                        </svg>
+                        <span class="brand-text">PURE<span class="brand-accent">TILE</span><span class="brand-sub">RESTORATION</span></span>
+                    </a>
+                    <p>Professional bathroom deep cleaning, tile and grout restoration, shower glass descaling, and mold-resistant sealing. Delivering sparkling results for residential and commercial properties.</p>
+                    <div class="footer-socials" style="margin-top: 1.5rem; display: flex; gap: 0.75rem;">
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="footer-title">Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="pricing.html">Pricing Guide</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="contact.html">Contact & Booking</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="footer-title">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html#tile-steam-cleaning">Tile & Grout Deep Cleaning</a></li>
+                        <li><a href="services.html#shower-glass-descaling">Shower Glass Descaling</a></li>
+                        <li><a href="services.html#grout-colorsealing">Grout Sealing & Caulking</a></li>
+                        <li><a href="services.html#commercial-restrooms">Commercial Restroom Care</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="footer-title">Newsletter</h5>
+                    <p style="margin-bottom: 1rem; color: var(--text-secondary); font-size: 0.9rem;">Subscribe for maintenance tips, special promotions, and restoration advice.</p>
+                    <form class="newsletter-form" style="display: flex; gap: 0.5rem; flex-direction: column;">
+                        <input type="email" placeholder="Email Address" required style="padding: 0.75rem 1rem; border-radius: 4px; border: 1px solid var(--border-color); background: var(--bg-primary); color: var(--text-primary); width: 100%; outline: none; transition: 0.3s;">
+                        <button type="submit" class="btn btn-primary" style="padding: 0.75rem 1rem; width: 100%; justify-content: center;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PureTile Bathroom Cleaning & Tile Restoration. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to Top">
+        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>
+    </button>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
