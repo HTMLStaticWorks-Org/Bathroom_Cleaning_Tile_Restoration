@@ -6575,10 +6575,24 @@ body.dark-mode .contact-mini-icon {
     min-width: 0;
 }
 
+.contact-form-container .grid {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+}
+
+.contact-form-container .grid > div {
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
 .contact-form-container input,
 .contact-form-container select,
 .contact-form-container textarea {
+    width: 100% !important;
     max-width: 100% !important;
+    min-width: 0 !important;
     box-sizing: border-box !important;
 }
 
@@ -6598,6 +6612,10 @@ body.dark-mode .contact-mini-icon {
 @media (max-width: 640px) {
     :root {
         --container-padding: 1rem;
+    }
+    .contact-hero-section {
+        padding-top: 105px !important;
+        padding-bottom: 35px !important;
     }
     .contact-card-container {
         padding: 1.5rem 1.15rem !important;
